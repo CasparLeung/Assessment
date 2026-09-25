@@ -18,6 +18,12 @@
 --
 -- Table structure for table `assessment`
 --
+-- Ensure database exists and is selected
+CREATE DATABASE IF NOT EXISTS `assessment_db`
+  DEFAULT CHARACTER SET utf8mb4
+  COLLATE utf8mb4_unicode_ci;
+
+USE `assessment_db`;
 
 DROP TABLE IF EXISTS `assessment`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;

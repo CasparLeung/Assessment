@@ -1,0 +1,19 @@
+# Environment secrets (Requirement 5)
+.env
+
+# Temporary runner & editor artifacts
+tempCodeRunnerFile.py
+.vscode/
+
+# Python compiled bytecode & runtime caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Testing caches
+.pytest_cache/
